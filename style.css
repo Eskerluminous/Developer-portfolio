@@ -6,16 +6,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color {
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .first-section{
     background-image: url(images/top-banner2.png);
     background-repeat: no-repeat;
     background-size: 50%;
+    padding-top: 3%;
 }
 .link-button {
     text-decoration: none;
@@ -34,12 +38,13 @@ section{
 }
 .half-width img{
     width: 70%;
+    padding-top: 10%;
 }
 .second-section{
     display: flex;
     background-image: url(images/dream-bg.png);
-  background-repeat: no-repeat;
-  background-position: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
   
 }
 .second-width{
@@ -61,4 +66,39 @@ section{
     padding: 10px 30px;
     text-align: center;
     border-radius: 5px;
+}
+.exp-customize{
+    padding-left: 5%;
+}
+.experince-item{
+    width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+    box-shadow: 10px 10px 25px mediumvioletred;
+    border-radius: 10px;
+    
+
+}
+.experince-area{
+    padding-bottom: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 0.5%;
+}
+#web-developer-experince1{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;  
+}
+#web-developer-experince2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
